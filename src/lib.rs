@@ -1,3 +1,6 @@
+mod keyword;
+mod lexical;
+
 #[cfg(test)]
 mod tests {
     #[test]
