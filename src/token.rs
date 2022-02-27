@@ -1,5 +1,15 @@
+
 #[derive(Debug, PartialEq)]
-pub enum Keyword {
+pub enum Token {
+    // Keyword(Keyword),
+    // Identifier,
+    // Constant,
+    // Operators, //操作符
+    // Special,   //特殊字符
+    // Comments,  //注释
+
+    //Keyword begin
+
     Abort,            //abort
     Absolute,         //absolute
     Access,           //access
@@ -450,4 +460,7 @@ pub enum Keyword {
     Year,             //year
     Yes,              //yes
     Zone,             //zone
+
+    //Keyword end
+
 }

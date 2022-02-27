@@ -1,6 +1,4 @@
-mod keyword;
-mod lexical;
-mod operator;
+mod token;
 
 #[cfg(test)]
 mod tests {
