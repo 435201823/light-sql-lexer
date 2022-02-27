@@ -1,5 +1,6 @@
 mod keyword;
 mod lexical;
+mod operator;
 
 #[cfg(test)]
 mod tests {
